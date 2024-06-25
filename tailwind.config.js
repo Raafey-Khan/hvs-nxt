@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-
+      borderRadius: {
+        'bl-custom': '1rem', // replace 1rem with your desired value
+      },
       colors: {
         custom: '#f6f6f6',
-        raimbow: '#e0f4f5',
+        raimbow: '#E4F3F4',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
