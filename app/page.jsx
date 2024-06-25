@@ -183,7 +183,7 @@ export default function Home() {
 
 
 
-  <div className="testimonials-container  h-full mt-10   w-full mx-auto px-4 container">
+  <div className="testimonials-container   h-full mt-10   w-full mx-auto px-4 container">
     <div className="header-text-testimonials">
       <p className="text-center text-[#F05F6E]">Testimonials</p>
       <div className="flex justify-center items-center  gap-3">
@@ -199,13 +199,13 @@ export default function Home() {
        <p className=" font-bold  text-2xl text-[#737373]">224 + Review</p>
       </div>
   </div>
-      <div className="flex-containerr flex justify-center items-center gap-8 mb-9">
+      <div className="flex-containerr flex  justify-center items-center gap-8 mb-9">
         <div>
           <img className="w-[5rem]" src="images/circle-arrow-up-left.png" alt="" />
         </div>
 
-        <div className="h-full w-full">
-          <img src="images/Testimonial-img-1.png" alt="" />
+        <div className="w-full">
+          <img className="h-[470px]" src="images/Testimonial-img-1.png" alt="" />
         </div>
 
         <div className="h-full w-full">
@@ -224,7 +224,7 @@ export default function Home() {
   </div>
 
 
-  <div className="locations-container   h-[550px] w-full mt-16 mx-auto px-4 container flex flex-col ">
+  <div className="locations-container   h-[550px] w-full mt-16 mx-auto px-4 container flex flex-col  ">
 
     <div className="location-header-txt w-full text-center mb-8">
       <p className="text-[#F05F6E] mb-2">Locations</p>
@@ -235,7 +235,7 @@ export default function Home() {
       <p className="px-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
     </div>
 
-    <div className="location-flex-container h-full flex justify-center items-center gap-12">
+    <div className="location-flex-container h-full flex justify-center items-center gap-12 flex-wrap">
       <div className="h-full ">
       <div class="h-[286px]  mt-[3.2rem] overflow-hidden w-[600px]  rounded-xl">
   <iframe
@@ -254,7 +254,7 @@ export default function Home() {
 
         <div className="hospital-name-address">
           <p className=" font-semibold mb-2 text-[15px]">Janco Hospital</p>
-           <p className="text-[14px]">164-178 Cromwell Road London <br /> SWS OTU United Kingdom</p>
+           <p className="text-[14px]">164-178 Cromwell Road London <span className="block"> SWS OTU United Kingdom  </span> </p>
         </div>
 
         <div className="contact-detail-book  h-full w-[200px]  flex flex-col justify-center items-center ">
@@ -275,7 +275,7 @@ export default function Home() {
 
 <div className="hospital-name-address">
   <p className=" font-semibold mb-2 text-[15px]">Janco Hospital</p>
-   <p className="text-[14px]">164-178 Cromwell Road London <br /> SWS OTU United Kingdom</p>
+   <p className="text-[14px]">164-178 Cromwell Road London <span className=" block"> SWS OTU United Kingdom</span></p>
 </div>
 
 <div className="contact-detail-book  h-full w-[200px] bg-white flex flex-col justify-center items-center ">
